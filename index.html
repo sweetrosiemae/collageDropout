@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Graduate&family=Lato&display=swap" rel="stylesheet"> 
+    <title>Collage Dropout</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="wrapper">
+            <nav>
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About The Artist</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+
+            <div class="titleContainer">
+                <h1>Collage Dropout</h1>
+                <div class="titleShoe">
+                    <img src="assets/orangejordans.png" alt="orange jordan collage art piece">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="wrapper">
+            <div class="welcome">
+                <h2>Welcome to Art Class for Dropouts!</h2>
+                <h3>Collage Dropout (<span>noun </span>) : 
+                    a blunt smoking, sneakerhead. Definitely an all round vibe.</h3>
+                <div class="jointHand">
+                    <img src="./assets/jointnhand.png" alt="pink hand illustration with sparkles">
+                </div>
+            </div>
+
+            <div class="flexContainer">
+                <div class="kanyeFrame">
+                    <img src="./assets/fullFrame.png" alt="kanye west gold album frame">
+                </div>
+                
+                <div class="whatToDo">
+                    <h2>What To Do</h2>
+                    <p>You can move the clustered collage pieces around on the canvas to build your own collage below. The canvas is the width of your screen and the length between the pink lines. When you're finished your master piece, you can download your collage and use the hashtag <span>#CollageDropout </span> if you want to share it on social media - or save it to the <a href="gallery.html">Gallery</a> page where you'll find other collages ...but definitely no textbooks 🙅🏼‍♀️.</p>
+                    <p>Hints: When you save your collage, your entire canvas will be captured. Didn't use all of the pieces? No prob - there is a delete button! And - don't forget to deselect your piece so the resizing border isn't captured.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="collage">
+        <!-- <div class="topFrame">
+            <img src="./assets/frame1.png" alt="">
+        </div> -->
+
+        <canvas id="c"></canvas>
+<!-- 
+        <div class="bottomFrame">
+            <img src="./assets/frame2.png" alt="">
+        </div> -->
+        <div class="wrapper">
+            <div class="buttons">
+                <input id="download" type="button" value="Download Collage">
+                <input id="upload" type="button" value="Save Collage To Gallery">
+                <input id="copy" type="button" value="Copy Piece">
+                <input id="paste" type="button" value="Paste Piece">
+                <input id="delete" type="button" value="Delete Piece">
+            </div>
+        </div>
+    </section>
+
+<div class="wrapper">
+    <div class="topButton">
+        <a href="index.html">Top</a>
+    </div>
+</div>
+
+
+
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>
+
+    <script src="fabric.min.js"></script>
+    <script src="app.js"></script>
+    <script src="FileSaver.min.js"></script>
+
+</body>
+
+</html>
