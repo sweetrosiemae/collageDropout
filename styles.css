@@ -435,12 +435,10 @@ canvas {
         margin-top: 10rem;
         height: 600px;
     }
-    .whatToDo {
-        top: -680px;
-    }
+
     .whatToDo p {
-        font-size: 1rem;
-        line-height: 1rem;
+        font-size: 1.2rem;
+        line-height: 1.2rem;
     }
 }
 
@@ -448,26 +446,23 @@ canvas {
     .navigation {
         display: none;
     }
-    /* 
-    .navigation li a {
-        padding: 1rem;
-        letter-spacing: 1px;
-        font-size: 1.5rem;
-    } */
+
     .titleContainer {
         padding-top: 15rem;
     }
     .jointHand {
         height: 200px;
         margin-top: 5rem;
-        ;
     }
     .flexContainer {
         margin-top: 2.5rem;
     }
-    .whatToDo {
-        top: -730px;
+
+    .whatToDo p {
+        font-size: 1.1rem;
+        line-height: 1rem;
     }
+
     .buttons input {
         padding: 1rem;
         margin: 0.2rem;
@@ -482,15 +477,7 @@ canvas {
     h1 {
         font-size: 5rem;
     }
-    /* .navigation {
-        padding-left: 0;
-    }
 
-    .navigation li a {
-        padding: 1.75rem;
-        letter-spacing: 0.5px;
-        font-size: 1.2rem;
-    } */
     .flexContainer {
         height: 400px;
         margin-top: 0;
