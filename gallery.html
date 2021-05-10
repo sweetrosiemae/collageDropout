@@ -12,7 +12,11 @@
 </head>
 
 <body>
-
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
 
     <div class="wrapper">
 
@@ -35,6 +39,12 @@
         </div>
 
     </div>
+
+    <script>
+        window.addEventListener('load', function () {
+            document.querySelector('body').classList.add("loaded")
+        });
+    </script>
 
 
     <!-- The core Firebase JS SDK is always required and must be listed first -->
