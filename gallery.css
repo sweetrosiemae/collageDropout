@@ -226,8 +226,10 @@ h1 {
 /* FOOTER */
 
 footer {
+    margin-top: 5rem;
     margin-bottom: 0;
     padding: 1rem;
+    background-color: whitesmoke;
 }
 
 footer p {
