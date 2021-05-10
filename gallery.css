@@ -223,6 +223,19 @@ h1 {
     100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
+/* FOOTER */
+
+footer {
+    margin-bottom: 0;
+    padding: 1rem 0;
+}
+
+footer p,
+footer a {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
 /* MEDIA QUERIES */
 
 
