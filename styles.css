@@ -450,6 +450,11 @@ footer a {
 }
 
 @media (max-width: 515px) {
+
+    h1 {
+        padding-top: 40rem;
+    }
+    
     h3 {
         font-size: 1.8rem;
     }
@@ -487,9 +492,6 @@ footer a {
 
 @media (max-width: 415px) {
 
-    h1 {
-        padding-top: 40rem;
-    }
     .navigation {
         display: none;
     }
