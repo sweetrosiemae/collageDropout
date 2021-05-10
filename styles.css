@@ -327,6 +327,9 @@ footer a {
     p {
         font-size: 1.8rem;
     }
+    .titleShoe {
+        margin-top: 10rem;
+    }
 }
 
 @media (max-width: 950px) {
@@ -483,6 +486,10 @@ footer a {
 }
 
 @media (max-width: 415px) {
+
+    h1 {
+        padding-top: 40rem;
+    }
     .navigation {
         display: none;
     }
