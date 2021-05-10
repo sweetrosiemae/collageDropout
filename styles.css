@@ -89,8 +89,8 @@ h1 {
 
 /* ARROW */
 i {
-    font-size: 8rem;
-    margin-top: 20rem;
+    font-size: 5rem;
+    margin-top: 5rem;
 }
 
 .blink {
@@ -454,7 +454,7 @@ footer a {
     h1 {
         padding-top: 40rem;
     }
-    
+
     h3 {
         font-size: 1.8rem;
     }
