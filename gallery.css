@@ -403,7 +403,7 @@ h1 {
     right: 5px;
     bottom: 5px;
     border: 3px solid transparent;
-    border-top-color: #ff69eb;
+    border-top-color: #231942;
     border-radius: 100%;
     -webkit-animation: spin 3s linear infinite;
     animation: spin 3s linear infinite;
@@ -417,7 +417,7 @@ h1 {
     right: 12px;
     bottom: 12px;
     border: 3px solid transparent;
-    border-top-color: #fe4e00;
+    border-top-color: #ff69eb;
     border-radius: 100%;
     -webkit-animation: spin 1.5s linear infinite;
     animation: spin 1.5s linear infinite;
@@ -452,7 +452,7 @@ h1 {
 #loader-wrapper .loader-section {
     position: fixed;
     top: 0;
-    background: #231942;
+    background: #fe4e00;
     width: 51%;
     height: 100%;
     z-index: 1000;
@@ -488,5 +488,3 @@ h1 {
     transform: translateY(-100%);
     transition: all 0.3s 1s ease-out;
 }
-
-
