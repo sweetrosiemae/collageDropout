@@ -33,11 +33,21 @@ collageDropout.firebaseInit = () => {
 
             collageImage.src = data.url;
 
+            // const button = document.createElement('button');
+
+            // button.setAttribute('id', 'deleteButton');
+
+            // button.innerHTML = 'Delete';
+
+            // listItem.appendChild(button);
+
             collage.appendChild(collageImage);
 
         })
     });
 };
+
+    
 
 collageDropout.init = () => {
     collageDropout.firebaseInit();

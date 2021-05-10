@@ -71,13 +71,13 @@ h1 {
     font-family: 'Graduate', cursive;
     text-transform: uppercase;
     text-align: center;
-    font-size: 6rem;
+    font-size: 6.5rem;
     color: #fe4e00;
     -webkit-text-fill-color: #231942;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: white;
 
-    padding-top: 12%;
+    padding-top: 11%;
 }
 
 .galleryTitle {
@@ -223,7 +223,153 @@ h1 {
     100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
+/* MEDIA QUERIES */
 
+
+@media (max-width: 1040px) {
+
+    h1 {
+        font-size: 7rem;
+        padding-top: 13rem;
+    }
+
+    .aboutInfo p {
+        top: -20%;
+        text-align: initial; 
+        transform: rotate(3deg);
+    }
+    
+}
+
+@media (max-width: 1024px) {
+    header {
+        height: 40vh;
+    }
+    h1 {
+        padding-top: 18%;
+    }
+    .pin {
+        top: -80px;
+    }
+}
+
+@media (max-width: 850px) {
+
+    .galleryList li {
+        width: 80%;
+    }
+
+    .aboutContainer {
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .picContainer {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .cookie {
+        top: -120px;
+    }
+
+    .aboutInfo {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .pin {
+        top: -100px;
+    }
+
+    .aboutInfo p {
+        top: -90px;
+    }
+}
+
+@media (max-width: 614px) {
+
+    .navigation {
+        justify-content: initial;
+    }
+
+    .navigation li a {
+        padding: 1rem;
+        letter-spacing: 1.5px;
+        font-size: 1rem;
+        margin: 1rem;
+    }
+
+    header{
+        height: 30vh;
+    }
+
+    h1 {
+        font-size: 5rem;
+        -webkit-text-stroke-width: 1px;
+    }
+
+}
+
+@media (max-width: 414px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    header {
+        margin-top: 4rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+        padding-top: 5rem;
+    }
+
+    .cookie {
+        top: -100px;
+    }
+
+    .pin {
+        top: -30px;
+    }
+
+    .aboutInfo {
+        padding: 2.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .aboutInfo p {
+        top: -25px;
+        font-size: 2rem;
+    }
+
+    .galleryList li {
+        padding-top: 0;
+    }
+
+}
+
+@media (max-width: 360px) {
+
+    .navigation li a {
+        padding: 1rem;
+        margin: 0.5rem;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+}
+
+@media (max-width: 344px) {
+    .navigation li a {
+        padding: 0.5rem;
+        margin: 0.2rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+}
 
 
 

@@ -66,6 +66,7 @@ header {
 
 .titleShoe{
     width: 60%;
+    height: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -244,4 +245,303 @@ canvas {
     font-size: 2rem;
 }
 
+/* ANIMATIONS */
+
+/* .kanyeFrame:hover {
+    transform: rotate(360deg);
+    transition: all 2s ease-in-out;
+} */
+
+.jointHand {
+    animation: swing 5s infinite ease-in-out;
+}
+
+@keyframes swing {
+    0%, 100% { transform: rotate(0deg); }
+    20% {transform:scale(.95);}
+    50% { transform: rotate(40deg); }
+    80% {transform:scale(.95);}
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1230px) {
+    .whatToDo {
+        top: -730px;
+    }
+}
+
+@media (max-width: 1170px) {
+    .whatToDo {
+        top: -760px;
+    }
+}
+
+@media (max-width: 1125px) {
+    .whatToDo {
+        top: -840px;
+    }
+}
+
+@media (max-width: 1040px) {
+    h1 {
+        font-size: 8rem;
+    }
+
+    h2 {
+        font-size: 4rem;
+    }
+
+    p {
+        font-size: 1.8rem;
+    }
+
+}
+
+@media (max-width: 950px) {
+    .whatToDo {
+        top: -820px;
+    }
+
+    .whatToDo h2 {
+        font-size: 3rem;
+    }
+
+    .whatToDo p {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 910px) {
+    .whatToDo {
+        top: -760px;
+    }
+
+    .whatToDo p {
+        line-height: 2rem;
+    }
+}
+
+@media (max-width: 850px) {
+    .whatToDo {
+        top: -800px;
+    }
+
+    .buttons {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    
+    .buttons input {
+        padding: 1rem;
+        margin: 0.5rem;
+        font-size: 1.5rem;
+    }
+    
+    .topButton a {
+        padding: 1rem;
+        margin: 10.5rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 770px) {
+    .whatToDo {
+        top: -700px;
+    }
+
+    .kanyeFrame {
+        margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 735px) {
+    .flexContainer {
+        margin-top: 35rem;
+    }
+    .whatToDo {
+        top: -705px;
+        line-height: 1rem;
+        padding: 0rem;
+    }
+    .whatToDo p {
+        margin: 0.4rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .wrapper {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    .whatToDo {
+        top: -680px;
+    }
+}
+
+@media (max-width: 670px){
+    .whatToDo p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 590px){
+
+    .navigation li a {
+        padding: 1.5rem;
+        letter-spacing: 1px;
+        font-size: 1.5rem;
+    }
+    
+    header {
+        height: 80vh;
+    }
+
+    h1 {
+        font-size: 6rem;
+        -webkit-text-stroke-width: 1.5px;
+    }
+
+    .titleContainer {
+        height: 50vh;
+    }
+
+    .whatToDo {
+        top: -700px;
+        width: 54%;
+    }
+
+    .whatToDo p {
+        line-height: 1.5rem;
+    }
+
+    .whatToDo h2 {
+        font-size: 2rem;
+        -webkit-text-stroke-width: 0.5px;
+    }
+
+    .whatToDo a {
+        -webkit-text-stroke-width: 0.5px;
+    }
+}
+
+@media (max-width: 515px) {
+
+    h3 {
+        font-size: 1.8rem;
+    }
+
+    .whatToDo {
+        top: -725px;
+    }
+
+    .whatToDo p {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+    h3 {
+        font-size: 1.7rem;
+        margin: 1.5rem;
+    }
+
+    .jointHand {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .flexContainer {
+        margin-top: 10rem;
+        height: 600px;
+    }
+
+    .whatToDo {
+        top: -680px;
+    }
+
+    .whatToDo p {
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+}
+
+@media (max-width: 415px) {
+
+
+    .navigation li a {
+        padding: 1rem;
+        letter-spacing: 1px;
+        font-size: 1.5rem;
+    }
+
+    .jointHand {
+        height: 200px;
+        margin-top: 5rem;;
+    }
+
+    .flexContainer {
+        margin-top: 2.5rem;
+    }
+    .whatToDo {
+        top: -730px;
+    }
+
+    .buttons input {
+        padding: 1rem;
+        margin: 0.2rem;
+        font-size: 1rem;
+    }
+    
+    .topButton a {
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 380px) {
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    .navigation {
+        padding-left: 0;
+    }
+
+    .navigation li a {
+        padding: 0.75rem;
+        letter-spacing: 1px;
+        font-size: 1.2rem;
+    }
+
+    .flexContainer {
+        height: 400px;
+        margin-top: 0;
+    }
+
+    .kanyeFrame {
+        display: none;
+    }
+
+    .whatToDo {
+        top: initial;
+        width: 80%;
+    }
+
+    .whatToDo p {
+        line-height: 2rem;
+    }
+
+}
 
