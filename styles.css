@@ -436,6 +436,10 @@ canvas {
         height: 600px;
     }
 
+    .whatToDo h2 {
+        font-size: 1.5rem;
+    }
+
     .whatToDo p {
         font-size: 1.1rem;
         line-height: 1.1rem;
