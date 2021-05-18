@@ -496,6 +496,10 @@ footer a {
         display: none;
     }
 
+    i {
+        margin-top: 9rem;
+    }
+
     .titleContainer {
         padding-top: 15rem;
     }
